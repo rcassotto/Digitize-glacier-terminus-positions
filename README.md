@@ -5,7 +5,7 @@ MATLAB programs to manually digitize glacier terminus positions from satellite i
 
 These *.xml files are generated during the conversion of geotiff images to jpegs using gdal (the Geospatial Data Abstraction Library; http://gdal.org). For example, 
   
-          _gdal_translate_ -of JPEG -projwin <ulx> <uly> <lrx> <lry> <infilename>.tif <outfilename>.jpg_
+          _gdal_translate_ -of _JPEG_ -projwin <ulx> <uly> <lrx> <lry> <infilename>.tif <outfilename>.jpg_
   
 will generate two files:
     1) a jpeg of the original satellite image, cropped to the projection window defined by upper left and lower right coordinates specified. 
